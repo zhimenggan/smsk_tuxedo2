@@ -1,4 +1,4 @@
-# smsk_tuxedo2: snakemake pipeline to produce the tuxedo v2 pipeline from Nature protocols
+# smsk_tuxedo2: snakemake workflow from the tuxedo v2 protocol
 
 [![Build Status](https://travis-ci.org/jlanga/smsk_tuxedo2.svg?branch=master)](https://travis-ci.org/jlanga/smsk_tuxedo2)
 
@@ -9,9 +9,8 @@
 This is a SnakeMake workflow to apply the protocol described in Pertea et al. 2016. With some
 modifications.
 
-The idea is to produce Differential Expression analysis given a bunch of FASTQ files,
-
-
+The idea is to produce Differential Expression analysis given a bunch of FASTQ files, a 
+fasta reference and a GTF file.
 
 ## 2. First steps
 
